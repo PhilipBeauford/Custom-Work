@@ -3,13 +3,13 @@
 
 Bare NextJS + Tailwind CSS configured and ready to play!
 
-I added a src folder because I like having one.
-
 First, run the development server:
 
 ```bash
 npm install
-# then
+```
+
+```
 npm run dev
 # or
 yarn dev
