@@ -8,7 +8,7 @@ First, run the development server:
 ```bash
 npm install
 ```
-
+Then..
 ```
 npm run dev
 # or
