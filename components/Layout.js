@@ -1,12 +1,13 @@
 import React from 'react'
-import Footer from './Footer'
-import NavAvatar from './NavAvatar'
+import Footer from './Footer';
+import NavTW from './NavTW';
 
 
 export default function Layout({ children }) {
     return (
+
         <div className="flex flex-col justify-between min-h-screen">
-            <NavAvatar />
+            <NavTW />
                 <main>
                     {children}
                 </main>

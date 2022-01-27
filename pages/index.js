@@ -2,6 +2,8 @@ import Head from "next/head";
 import { getProductsInCollection } from "../lib/shopify";
 import ProductList from "../components/ProductList";
 import HeroEcom from "../components/HeroEcom";
+import FeatureGridImage from "../components/FeatureGridImage";
+import FeatureGrid from "../components/FeatureGrid";
 
 
 export default function Home({ products }) {
@@ -12,6 +14,8 @@ console.log(products)
     <div className="text-3xl">
         <HeroEcom />
         <ProductList products={products} />
+        <FeatureGrid />
+        <FeatureGridImage />
     </div>
   );
 }
