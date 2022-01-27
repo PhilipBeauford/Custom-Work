@@ -1,10 +1,25 @@
 import Head from "next/head";
+import { getProductsInCollection } from "../lib/shopify";
+import ProductList from "../components/ProductList";
 
 
-export default function Home() {
+export default function Home({ products }) {
+
+console.log(products)
+
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="">Welcome to Bare NextJS & Tailwind CSS!</h1>
+    <div className="text-3xl">
+      <ProductList products={products} />
     </div>
   );
+}
+
+
+
+export async function getStaticProps() {
+  const products = await getProductsInCollection()
+
+  return {
+    props: { products }, // will be passed to the page component as props
+  }
 }
