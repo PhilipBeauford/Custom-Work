@@ -9,7 +9,7 @@ console.log(products)
 
   return (
     <div className="text-3xl">
-      <ProductList products={products} />
+        <ProductList products={products} />
     </div>
   );
 }
