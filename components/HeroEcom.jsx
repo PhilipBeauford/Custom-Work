@@ -12,7 +12,7 @@ function HeroEcom() {
                     <div className="lg:max-w-lg">
                         <h1 className="text-2xl font-semibold text-gray-800 uppercase dark:text-white lg:text-3xl">Best Place To Choose Your Clothes</h1>
                         <p className="mt-2 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? </p>
-                        <button className="btn btn-primary rounded-3xl mt-5">Shop Now</button>
+                        <button className="btn btn-primary rounded-3xl mt-10 h-8">Shop Now</button>
                     </div>
                 </div>
         
