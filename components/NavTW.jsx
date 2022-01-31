@@ -1,3 +1,8 @@
+import { Fragment, useState } from 'react'
+import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
+import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
+
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -14,11 +19,6 @@
   }
   ```
 */
-import { Fragment, useState } from 'react'
-import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
-import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
-import Image from 'next/image'
-
 
 
 const navigation = {
@@ -151,10 +151,11 @@ function classNames(...classes) {
 
 
 
-
-
 export default function NavTW() {
   const [open, setOpen] = useState(false)
+
+
+
 
   return (
     <div className="bg-white w-full">
@@ -280,14 +281,23 @@ export default function NavTW() {
         </Dialog>
       </Transition.Root>
 
-      <header className="relative bg-white">
-        <p className="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
+
+
+
+
+
+
+
+      <header className="block bg-white text-base">
+
+        <p className="bg-amber-500 h-10 flex items-center shadow-sm justify-center text-base font-medium text-white px-4 sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
 
-        <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="border-b border-gray-200">
-            <div className="h-16 flex items-center">
+
+        <nav aria-label="Top" className="block max-w-full mx-auto px-4 sm:px-6 lg:px-8 bg-purple-500">
+          <div className="border-b drop-shadow-md ">
+            <div className="h-16 flex items-center bg-blue-500">
               <button
                 type="button"
                 className="bg-white p-2 rounded-md text-gray-400 lg:hidden"
@@ -298,7 +308,7 @@ export default function NavTW() {
               </button>
 
               {/* Logo */}
-              <div className="ml-4 flex lg:ml-0">
+              <div className="ml-4 flex lg:ml-0 bg-orange-400">
                 <a href="#">
                   <span className="sr-only">Workflow</span>
                   <Image
@@ -412,29 +422,7 @@ export default function NavTW() {
               </Popover.Group>
 
               <div className="ml-auto flex items-center">
-                <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                  <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                    Sign in
-                  </a>
-                  <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
-                  <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                    Create account
-                  </a>
-                </div>
-
-                <div className="hidden lg:ml-8 lg:flex">
-                  <a href="#" className="text-gray-700 hover:text-gray-800 flex items-center">
-                    <Image
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
-                      alt=""
-                      className="w-5 h-auto block flex-shrink-0"
-                      width='20px'
-                    height='15px'
-                    />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
-                  </a>
-                </div>
+                
 
                 {/* Search */}
                 <div className="flex lg:ml-6">
@@ -451,7 +439,7 @@ export default function NavTW() {
                       className="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
                       aria-hidden="true"
                     />
-                    <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
+                    <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"></span>
                     <span className="sr-only">items in cart, view bag</span>
                   </a>
                 </div>

@@ -13,7 +13,7 @@ console.log(products)
 
   return (
     <div className="text-3xl">
-      <NavEcom />
+      {/* <NavEcom /> */}
         <HeroEcom />
         <ProductList products={products} />
         <FeatureGrid />

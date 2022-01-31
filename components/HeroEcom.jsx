@@ -6,7 +6,7 @@ function HeroEcom() {
   <div>
     <header className="bg-white dark:bg-gray-800">
 
-        <div className="container px-6 py-16 mx-auto">
+        <div className="container  py-16 mx-auto">
             <div className="items-center lg:flex">
                 <div className="w-full lg:w-1/2">
                     <div className="lg:max-w-lg">
