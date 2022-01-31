@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
-import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon, UserCircleIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 
 /*
@@ -429,6 +429,13 @@ export default function NavTW() {
                   <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Search</span>
                     <SearchIcon className="w-6 h-6" aria-hidden="true" />
+                  </a>
+                </div>
+
+                <div className="flex lg:ml-6">
+                  <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
+                    <span className="sr-only">Search</span>
+                    <UserCircleIcon className="w-6 h-6" aria-hidden="true" />
                   </a>
                 </div>
 
