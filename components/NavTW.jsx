@@ -421,35 +421,31 @@ export default function NavTW() {
                 </div>
               </Popover.Group>
 
-              <div className="ml-auto flex items-center">
+              <div className="ml-auto flex items-center justify-center">
                 
 
                 {/* Search */}
-                <div className="flex lg:ml-6">
-                  <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
+                  <a href="#" className="p-2 text-amber-500 hover:text-gray-500">
                     <span className="sr-only">Search</span>
                     <SearchIcon className="w-6 h-6" aria-hidden="true" />
                   </a>
-                </div>
 
-                <div className="flex lg:ml-6">
-                  <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
+                  <a href="#" className="p-2 text-amber-500 hover:text-gray-500">
                     <span className="sr-only">Search</span>
                     <UserCircleIcon className="w-6 h-6" aria-hidden="true" />
                   </a>
-                </div>
 
                 {/* Cart */}
-                <div className="ml-4 flow-root lg:ml-6">
-                  <a href="#" className="group -m-2 p-2 flex items-center">
+                  <a href="#" className="group p-2 flex items-center">
                     <ShoppingBagIcon
-                      className="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
+                      className="flex-shrink-0 h-6 w-6 text-amber-500  group-hover:text-gray-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"></span>
                     <span className="sr-only">items in cart, view bag</span>
                   </a>
-                </div>
+                
+
               </div>
             </div>
           </div>
