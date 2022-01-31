@@ -157,7 +157,7 @@ export default function NavTW() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div className="bg-white w-full">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setOpen}>
@@ -273,32 +273,8 @@ export default function NavTW() {
                 ))}
               </div>
 
-              <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                <div className="flow-root">
-                  <a href="#" className="-m-2 p-2 block font-medium text-gray-900">
-                    Sign in
-                  </a>
-                </div>
-                <div className="flow-root">
-                  <a href="#" className="-m-2 p-2 block font-medium text-gray-900">
-                    Create account
-                  </a>
-                </div>
-              </div>
-
-              <div className="border-t border-gray-200 py-6 px-4">
-                <a href="#" className="-m-2 p-2 flex items-center">
-                  <Image
-                    src="https://tailwindui.com/img/flags/flag-canada.svg"
-                    alt=""
-                    className="w-5 h-auto block flex-shrink-0"
-                    width='280px'
-                    height='348px'
-                  />
-                  <span className="ml-3 block text-base font-medium text-gray-900">CAD</span>
-                  <span className="sr-only">, change currency</span>
-                </a>
-              </div>
+              
+              
             </div>
           </Transition.Child>
         </Dialog>
