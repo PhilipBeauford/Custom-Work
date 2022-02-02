@@ -1,4 +1,4 @@
-import Head from "next/head";
+
 import { getProductsInCollection } from "../lib/shopify";
 import ProductList from "../components/ProductListMe";
 import FeatureGrid from "../components/FeatureGrid";
@@ -14,10 +14,8 @@ console.log(products)
   return (
     <div className="text-3xl">
         <HeroMine />
-        {/* <HeroEcom /> */}
         <ProductList products={products} />
         <Reviews />
-        {/* <AlsoPurchased products={products}/> */}
         <FeatureGrid />
     </div>
   );
