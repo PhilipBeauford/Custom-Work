@@ -12,6 +12,10 @@
   ```
 */
 
+import Image from "next/image"
+
+
+
 const products = [
     {
       id: 1,
@@ -63,10 +67,14 @@ const products = [
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <div className="w-full min-h-80 bg-gray-200 rounded-2xl shadow-md aspect-w-1 aspect-h-1 overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                  <img
+                  <Image
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                    height='100%'
+                    width='100%'
+                    layout='fill'
+
                   />
                 </div>
                 <div className="mt-4 flex justify-between">
