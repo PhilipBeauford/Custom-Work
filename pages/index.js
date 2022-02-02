@@ -4,7 +4,7 @@ import ProductList from "../components/ProductListMe";
 import HeroEcom from "../components/HeroEcom";
 import FeatureGridImage from "../components/FeatureGridImage";
 import FeatureGrid from "../components/FeatureGrid";
-import HeroDaisy from './../components/HeroDaisy';
+import HeroMine from './../components/HeroMine';
 
 
 export default function Home({ products }) {
@@ -13,7 +13,7 @@ console.log(products)
 
   return (
     <div className="text-3xl">
-        <HeroDaisy />
+        <HeroMine />
         {/* <HeroEcom /> */}
         <ProductList products={products} />
         <FeatureGrid />
