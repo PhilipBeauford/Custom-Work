@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('../images/home/hero.jpg')"
+        'hero': 'url(/convertify.jpg)',
       },
       colors: {
         'mountain-meadow': {  

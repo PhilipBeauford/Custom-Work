@@ -4,19 +4,18 @@ import React from 'react';
 const HeroDaisy = () => {
 
   return (
-<div className="hero min-h-screen" style={{backgroundImage: 'url(/convertify.jpg)' }}>
-  <div className="">
-  </div> 
+<div className="bg-cover flex flex-col justify-center items-center bg-hero h-screen" >
+  
 
-  <div className="text-center hero-content text-neutral-content">
+  <div className="text-center text-white">
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">
             Hello there
           </h1> 
       <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. 
+            Provident cupiditate voluptatem et in.  
           </p> 
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn btn-primary w-46 rounded-xl">Get Started</button>
     </div>
   </div>
 </div>);
