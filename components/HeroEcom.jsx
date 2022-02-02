@@ -2,6 +2,9 @@ import Image from "next/image";
 
 
 function HeroEcom() {
+   
+
+
   return (
   <div>
     <header className="bg-white dark:bg-gray-800">
@@ -32,41 +35,19 @@ function HeroEcom() {
 
 
 
+        
 
 
-        <div className="w-screen carousel">
+        <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-500 flex flex-col justify-center items-center">
+  <h1 className= 'mb-10 text-4xl text-white font-semibold'>
+      Trying Headless UI Switch!
+  </h1>
 
-            <div className="w-1/2 carousel-item relative inline-block">
-                <img src="/pic1.jpg" className="w-full h-full block"/>
-                <p className="text-base font-bold sm:text-2xl md:text-3xl absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-                    wheres this go?
-                </p>
-
+  <div>
     
+  </div>
+</div>
 
-            </div> 
-            <div className="w-1/2 carousel-item relative inline-block">
-                <img src="pic2.jpg" className="w-full block h-full"/>
-                <p className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    wheres this go?
-                </p>
-            </div> 
-            <div className="w-1/2 carousel-item">
-                <img src='/images/pic3.jpg' className="w-full"/>
-            </div> 
-            <div className="w-1/2 carousel-item">
-                <img src="https://picsum.photos/id/503/256/144" className="w-full"/>
-            </div> 
-            <div className="w-1/2 carousel-item">
-                <img src="https://picsum.photos/id/504/256/144" className="w-full"/>
-            </div> 
-            <div className="w-1/2 carousel-item">
-                <img src="https://picsum.photos/id/505/256/144" className="w-full"/>
-            </div> 
-            <div className="w-1/2 carousel-item">
-                <img src="https://picsum.photos/id/506/256/144" className="w-full"/>
-            </div>
-        </div>
 
     </header>
   </div>

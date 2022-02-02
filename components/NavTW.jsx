@@ -144,6 +144,7 @@ const navigation = {
   ],
 }
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -159,6 +160,8 @@ export default function NavTW() {
 
   return (
     <div className="bg-white w-full">
+
+
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setOpen}>
@@ -195,10 +198,12 @@ export default function NavTW() {
                 </button>
               </div>
 
+
               {/* Links */}
-              <Tab.Group as="div" className="mt-2">
+              <Tab.Group as="div" className="mt-2 bg-orange-500">
                 <div className="border-b border-gray-200">
                   <Tab.List className="-mb-px flex px-4 space-x-8">
+
                     {navigation.categories.map((category) => (
                       <Tab
                         key={category.name}
@@ -214,6 +219,9 @@ export default function NavTW() {
                     ))}
                   </Tab.List>
                 </div>
+                        
+                    
+                
                 <Tab.Panels as={Fragment}>
                   {navigation.categories.map((category) => (
                     <Tab.Panel key={category.name} className="pt-10 pb-8 px-4 space-y-10">
@@ -290,36 +298,36 @@ export default function NavTW() {
 
       <header className="block bg-white text-base">
 
-        <p className="bg-amber-500 h-10 flex items-center shadow-sm justify-center text-base font-medium text-white px-4 sm:px-6 lg:px-8">
+        <p className="bg-bright-turquoise-600 h-10 flex items-center shadow-sm justify-center text-base font-medium text-white px-4 sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
 
 
-        <nav aria-label="Top" className="block max-w-full mx-auto px-4 sm:px-6 lg:px-8 bg-purple-500">
+        <nav aria-label="Top" className="block max-w-full mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="border-b drop-shadow-md ">
-            <div className="h-16 flex items-center bg-blue-500">
-              <button
-                type="button"
-                className="bg-white p-2 rounded-md text-gray-400 lg:hidden"
-                onClick={() => setOpen(true)}
-              >
-                <span className="sr-only">Open menu</span>
-                <MenuIcon className="h-6 w-6" aria-hidden="true" />
-              </button>
+            <div className="h-16 flex items-center ">
+                <button
+                  type="button"
+                  className="bg-white p-2 rounded-md text-gray-400 lg:hidden"
+                  onClick={() => setOpen(true)}
+                >
+                  <span className="sr-only">Open menu</span>
+                  <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                </button>
 
-              {/* Logo */}
-              <div className="ml-4 flex lg:ml-0 bg-orange-400">
-                <a href="#">
-                  <span className="sr-only">Workflow</span>
-                  <Image
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-                    alt=""
-                    width='28px'
-                    height='35px'
-                  />
-                </a>
-              </div>
+                {/* Logo */}
+                <div className="ml-4 flex lg:ml-0">
+                  <a href="#">
+                    <span className="sr-only">Workflow</span>
+                    <Image
+                      className="h-8 w-auto"
+                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600"
+                      alt=""
+                      width='28px'
+                      height='35px'
+                    />
+                  </a>
+                </div>
 
               {/* Flyout menus */}
               <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
@@ -422,15 +430,14 @@ export default function NavTW() {
               </Popover.Group>
 
               <div className="ml-auto flex items-center justify-center">
-                
 
                 {/* Search */}
-                  <a href="#" className="p-2 text-amber-500 hover:text-gray-500">
+                  <a href="#" className="p-2 text-orange-600 hover:text-gray-500">
                     <span className="sr-only">Search</span>
                     <SearchIcon className="w-6 h-6" aria-hidden="true" />
                   </a>
 
-                  <a href="#" className="p-2 text-amber-500 hover:text-gray-500">
+                  <a href="#" className="p-2 text-orange-600 hover:text-gray-500">
                     <span className="sr-only">Search</span>
                     <UserCircleIcon className="w-6 h-6" aria-hidden="true" />
                   </a>
@@ -438,7 +445,7 @@ export default function NavTW() {
                 {/* Cart */}
                   <a href="#" className="group p-2 flex items-center">
                     <ShoppingBagIcon
-                      className="flex-shrink-0 h-6 w-6 text-amber-500  group-hover:text-gray-500"
+                      className="flex-shrink-0 h-6 w-6 text-orange-600  group-hover:text-gray-500"
                       aria-hidden="true"
                     />
                     <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"></span>
