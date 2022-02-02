@@ -5,6 +5,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        blob: 'blob 8s infinite',
+      },
+      keyframes: {
+        blob: {
+          '0%': {
+            transform: 'translate(0px, 0px) scale(1)',
+          },
+          '33%': {
+            transform: 'translate(50px, 100px) scale(1.1)',
+          },
+          '66%': {
+            transform: 'translate(-80px, 80px) scale(0.9)',
+          },
+          '100%': {
+            transform: 'translate(0px, 0px) scale(1)',
+          },
+        },
+      },
       backgroundImage: {
         'hero': 'url(/convertify.jpg)',
       },
@@ -28,7 +47,13 @@ module.exports = {
         '50vh': '50vh',
         '60vh': '60vh',
         '70vh': '70vh',
-      }
+      },
+      width: {
+        '40vw': '40vw',
+        '50vw': '50vw',
+        '60vw': '60vw',
+        '70vw': '70vw',
+      },
       
     },
   },
