@@ -17,7 +17,7 @@ console.log(products)
         {/* <HeroEcom /> */}
         <ProductList products={products} />
         <Reviews />
-        <AlsoPurchased products={products}/>
+        {/* <AlsoPurchased products={products}/> */}
         <FeatureGrid />
     </div>
   );
