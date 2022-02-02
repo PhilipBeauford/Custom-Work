@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { getProductsInCollection } from "../lib/shopify";
 import ProductList from "../components/ProductListMe";
-import HeroEcom from "../components/HeroEcom";
-import FeatureGridImage from "../components/FeatureGridImage";
 import FeatureGrid from "../components/FeatureGrid";
 import HeroMine from './../components/HeroMine';
+import Reviews from './../components/Reviews';
+import AlsoPurchased from "../components/AlsoPurchased";
 
 
 export default function Home({ products }) {
@@ -16,8 +16,9 @@ console.log(products)
         <HeroMine />
         {/* <HeroEcom /> */}
         <ProductList products={products} />
+        <Reviews />
+        <AlsoPurchased products={products}/>
         <FeatureGrid />
-        <FeatureGridImage />
     </div>
   );
 }
