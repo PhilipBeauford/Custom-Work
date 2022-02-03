@@ -30,7 +30,7 @@ function Reviews() {
                         </div >
                         <div className='flex items-center mb-8 '>
                             <h2 className='text-2xl text-white'>
-                            "I've tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!"
+                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
                             </h2>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function Reviews() {
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            "I've tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!"
+                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
                             </h2> 
                         </div>
                     </div>
@@ -66,7 +66,7 @@ function Reviews() {
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            "I've tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!"
+                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
                             </h2>  
                         </div>
                     </div>
@@ -84,7 +84,7 @@ function Reviews() {
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            "I've tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!"
+                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
                             </h2>   
                         </div>
                     </div>
