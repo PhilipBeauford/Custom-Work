@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
       animation: {
         blob: 'blob 8s infinite',
       },
@@ -59,6 +62,7 @@ module.exports = {
   },
   plugins: [
     require('daisyui'),
+    require('@tailwindcss/aspect-ratio'),
   ],
   daisyui: {
     styled: true,

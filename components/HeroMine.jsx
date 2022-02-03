@@ -15,7 +15,7 @@ const HeroMine = () => {
       <p className="mb-5">
             NextJS TailWind Shopify.  
           </p> 
-      <button className="btn btn-primary w-46 rounded-xl shadow-md">Shop Now</button>
+      <button className="btn bg-violet-500 w-52 text-white font-semibold rounded-xl shadow-md hover:bg-violet-700 hover:border-2 hover:border-white">Shop Now</button>
     </div>
   </div>
 </div>);

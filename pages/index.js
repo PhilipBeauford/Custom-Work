@@ -15,8 +15,9 @@ console.log(products)
     <div className="text-3xl">
         <HeroMine />
         <ProductList products={products} />
-        <Reviews />
         <FeatureGrid />
+        <Reviews />
+        
     </div>
   );
 }
