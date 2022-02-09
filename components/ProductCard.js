@@ -10,7 +10,6 @@ const ProductCard = ({ product }) => {
 
     
     return (
-        
         <Link
             href={`/products/${handle}`}
         >

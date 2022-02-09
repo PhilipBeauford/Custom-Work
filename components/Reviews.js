@@ -8,7 +8,7 @@ function Reviews() {
                     💕 Wall of love 💕
                 </h2>
                 <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-                    What our Clients are saying
+                    A few kind words
                 </p>
             </div>
 
@@ -20,17 +20,17 @@ function Reviews() {
                             <div className='flex items-center mb-8'>
                                 <div>
                                     <span className='text-lg leading-tight block font-bold text-white'>
-                                        Philip Beauford
+                                        Heading Here
                                     </span>
                                     <span className='text-lg text-white text-opacity-50'>
-                                        www.philipbeauford.com
+                                        www.randomsite.com
                                     </span>
                                 </div>
                             </div>
                         </div >
                         <div className='flex items-center mb-8 '>
                             <h2 className='text-2xl text-white'>
-                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                             </h2>
                         </div>
                     </div>
@@ -39,16 +39,16 @@ function Reviews() {
                         <div className='flex items-center mb-8 '>
                             <div>
                                 <span className='text-lg leading-tight block font-bold text-white'>
-                                    Philip Beauford
+                                    Heading Here
                                 </span>
                                 <span className='text-lg text-white text-opacity-50'>
-                                    www.philipbeauford.com
+                                    www.randomsite.com
                                 </span>
                             </div>
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                             </h2> 
                         </div>
                     </div>
@@ -57,16 +57,16 @@ function Reviews() {
                         <div className='flex items-center mb-8 '>
                             <div>
                                 <span className='text-lg leading-tight block font-bold text-white'>
-                                    Philip Beauford
+                                    Heading Here
                                 </span>
                                 <span className='text-lg text-white text-opacity-50'>
-                                    www.philipbeauford.com
+                                    www.randomsite.com
                                 </span>
                             </div>
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                             </h2>  
                         </div>
                     </div>
@@ -75,16 +75,16 @@ function Reviews() {
                         <div className='flex items-center mb-8 '>
                             <div>
                                 <span className='text-lg leading-tight block font-bold text-white'>
-                                    Philip Beauford
+                                    Heading Here
                                 </span>
                                 <span className='text-lg text-white text-opacity-50'>
-                                    www.philipbeauford.com
+                                    www.randomsite.com
                                 </span>
                             </div>
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                             </h2>   
                         </div>
                     </div>
@@ -93,16 +93,16 @@ function Reviews() {
                         <div className='flex items-center mb-8 '>
                             <div>
                                 <span className='text-lg leading-tight block font-bold text-white'>
-                                    Philip Beauford
+                                    Heading Here
                                 </span>
                                 <span className='text-lg text-white text-opacity-50'>
-                                    www.philipbeauford.com
+                                    www.randomsite.com
                                 </span>
                             </div>
                         </div>
                         <div>
                             <h2 className='text-2xl text-white'>
-                            Ive tried many courses and instructors but Iskandar and his team have a smooth clear style that is easy to follow, leads you in the right direction and there are no issues with project deployment. Highly recommend!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                             </h2>
                         </div>
                     </div>

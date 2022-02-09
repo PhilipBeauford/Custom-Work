@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition, Menu } from '@headlessui/react'
 import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon, UserCircleIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
 /*
   This example requires Tailwind CSS v2.0+ 
@@ -318,16 +319,16 @@ export default function NavTW() {
 
                 {/* Logo */}
                 <div className="ml-4 flex lg:ml-0">
-                  <a href="#">
-                    <span className="sr-only">Workflow</span>
+                  <Link href="/">
                     <Image
-                      className="h-8 w-auto"
+                      className="h-8 w-auto cursor-pointer"
                       src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600"
                       alt=""
                       width='28px'
                       height='35px'
                     />
-                  </a>
+                  </Link>
+                  <span className="sr-only">Workflow</span>
                 </div>
 
               {/* Flyout menus */}
