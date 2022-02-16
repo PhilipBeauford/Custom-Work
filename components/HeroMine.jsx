@@ -11,9 +11,7 @@ const HeroMine = () => {
     <div className="max-w-md mt-56">
       <h1 className="mb-5 text-5xl font-bold whitespace-nowrap">
             The 
-            <strong style={{background: linear-gradient(115deg, #7839f3 -8%, #5433ff 18%, #20bdff 59%, #00fb9b 91%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent }}> Hottest
+            <strong className='bg-gradient-to-r from'> Hottest
             </strong>  Brands
           </h1> 
       <p className="mb-5">
@@ -22,6 +20,24 @@ const HeroMine = () => {
       <button className="btn bg-violet-500 w-52 text-white font-semibold rounded-xl shadow-md hover:bg-violet-700 hover:border-2 hover:border-white">Shop Now</button>
     </div>
   </div>
+
+  <div>
+    <svg className='' viewBox='0 0 100 100'>
+      <rect 
+        x='10' y='10'
+        width='20%' height='20%'
+        fill='blue'
+      />
+      <circle className='z-40'
+      cx={50} cy={50} r={50} fill='blue'
+      />
+      <polygon 
+      x='10' y='10'
+      width='20%' height='20%'
+      />
+    </svg>
+  </div>
+
 </div>);
 };
 
